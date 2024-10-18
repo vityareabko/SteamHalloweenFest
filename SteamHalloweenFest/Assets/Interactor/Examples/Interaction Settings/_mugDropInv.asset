@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565394eb171008547bef9d077909d057, type: 3}
+  m_Name: _mugDropInv
+  m_EditorClassIdentifier: 
+  holdingType: 1
+  holdPoint: 0
+  dropType: 3
+  parentToLocation: 0
+  enableComponents: 1
+  failToGround: 1
+  groundVector: {x: 0.15, y: 0.05, z: 0.05}
+  groundForce: 10
+  groundTorque: {x: -5, y: 0, z: -2}
+  onBody: 0
+  bodyPoint: 0
+  invOnBodyPointInstead: 0
+  sendToInvToo: 0
+  seperateItemObject: 0
+  throwDown: 1
+  throwVector: {x: 0, y: 0.2, z: 0.25}
+  throwForce: 15
+  throwTorque: {x: 0, y: 0, z: 0}
+  easeType: 4
+  pickupSpeedMult: 1
+  teleportLimit: 0.2
+  proceduralBeziers: 0
+  bezierPower: 1.5
+  verticalPower: 1.35
+  shoulderSideOffset: 1.25
+  horizontalPower: 0.5
+  horizontalLimit: 0.5
+  horizontalLimit2: 0.5
+  shoulderHeightOffset: -0.1
+  debug: 0
+  handDir: 1

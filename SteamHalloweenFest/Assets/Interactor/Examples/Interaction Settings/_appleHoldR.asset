@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565394eb171008547bef9d077909d057, type: 3}
+  m_Name: _appleHoldR
+  m_EditorClassIdentifier: 
+  holdingType: 1
+  holdPoint: 8
+  dropType: 2
+  parentToLocation: 1
+  enableComponents: 0
+  failToGround: 1
+  groundVector: {x: 0.02, y: 0.02, z: 0}
+  groundForce: 4
+  groundTorque: {x: 0, y: 0, z: 0}
+  onBody: 0
+  bodyPoint: 0
+  invOnBodyPointInstead: 0
+  sendToInvToo: 0
+  seperateItemObject: 0
+  throwDown: 0
+  throwVector: {x: 0, y: 0.2, z: 0.4}
+  throwForce: 25
+  throwTorque: {x: 0, y: 0, z: 0}
+  easeType: 4
+  pickupSpeedMult: 1
+  teleportLimit: 0.2
+  reverseRotation: 0
+  proceduralBeziers: 1
+  bezierMultipliers: {x: 1, y: 1, z: 1}
+  shoulderXMinMax: {x: -0.1, y: 0.25}
+  shoulderYMinMax: {x: -0.1, y: 0.12}
+  shoulderZMax: 0.15
+  debug: 0
+  handDir: 1

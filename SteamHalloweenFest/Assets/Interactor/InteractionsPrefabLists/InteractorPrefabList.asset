@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd6f984ead7e234792ffd717a78006f, type: 3}
+  m_Name: InteractorPrefabList
+  m_EditorClassIdentifier: 
+  tabPrefabs:
+  - {fileID: 7412457509108784883, guid: 5058ccdce762c7840a930333d79a2131, type: 3}
+  - {fileID: 7882903235780444120, guid: 195c6b9a8fd398a499eedf41e1e59bb0, type: 3}
+  listPointer: 0100000001000000
+  excludePlayerMask: 0
+  surfaceRotation: 3
+  addComponentsOnParent: 0
+  addPivotOnPoint: 0
+  rightClickTimer: 100
+  spawnSettings:
+  - {fileID: 0}
